@@ -51,18 +51,18 @@ const playRound = function () {
 
 };
 
-for (let i = 0; i < 6; i++) {
-    playRound();
+// for (let i = 0; i < 6; i++) {
+//     playRound();
 
-    console.log(computerScore);
-    console.log(playerScore);
-}
+//     console.log(computerScore);
+//     console.log(playerScore);
+// }
 
-if (playerScore > computerScore) {
+// if (playerScore > computerScore) {
 
-    alert("You won! Refresh page to play again");
-}
-else {
+//     alert("You won! Refresh page to play again");
+// }
+// else {
 
-    alert("You lost! Refresh page to try again");
-}; 
+//     alert("You lost! Refresh page to try again");
+// }; 
