@@ -51,6 +51,7 @@ const playRound = function (userChoice) {
 
 //get the choice
 const choices = document.querySelectorAll('.action');
+const resetBtn = document.querySelector("#reset");
 
 choices.forEach(function (choice) {
     choice.addEventListener('click', () => {
@@ -80,29 +81,9 @@ choices.forEach(function (choice) {
 })
 
 
-
-
-const resetBtn = document.querySelector("#reset");
-
 resetBtn.addEventListener('click', () => {
     location.reload();
 })
 
 
 
-
-// for (let i = 0; i < 6; i++) {
-//     playRound();
-
-//     console.log(computerScore);
-//     console.log(playerScore);
-// }
-
-// if (playerScore > computerScore) {
-
-//     alert("You won! Refresh page to play again");
-// }
-// else {
-
-//     alert("You lost! Refresh page to try again");
-// }; 
